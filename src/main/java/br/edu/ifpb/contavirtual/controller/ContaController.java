@@ -22,12 +22,6 @@ public class ContaController {
     @Autowired
     private CorrentistaService correntistaService;
 
-    @GetMapping("/{id}")
-    public Conta buscarContaPorId(@PathVariable(name = "id") Long id){
-       return this.contaService.buscaContaPorId(id);
-
-    }
-
 
 
 }
